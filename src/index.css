@@ -1,0 +1,40 @@
+.searchcontainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.formsearch label{
+    font-size: 2rem;
+    color: black;
+    letter-spacing: 1px;
+}
+.formsearch input{
+    padding: .8rem 4rem;
+    font-size: 1.rem;
+    margin-left: 1rem;
+    outline: none;
+}
+
+.homecontainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.homecontainer img{
+    width: 380px;
+    height: 370px;
+}
+
+.homecard{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
